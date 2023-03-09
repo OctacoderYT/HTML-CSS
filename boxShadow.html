@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Box Shadows</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <style>
+      body,html{
+         width: 100%;
+         height: 100%;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background: #d1cdcd;
+      }
+
+      .boxShadows1 {
+         margin: 30px;
+         width: 300px;
+         height: 300px;
+         background: #d1cdcd;
+         border-radius: 50px;
+         box-shadow:  24px 24px 50px #a8aead,
+                      -24px -24px 50px #e4eceb;
+      }
+      .boxShadows2 {
+         margin: 30px;
+         width: 300px;
+         height: 300px;
+         background: #d1cdcd;
+         border-radius: 50px;
+         box-shadow:  -24px -24px 50px #a8aead,
+                      24px 24px 50px #e4eceb;
+      }
+
+      .boxShadows3 {
+         margin: 30px;
+         width: 300px;
+         height: 300px;
+         background: #d1cdcd;
+         border-radius: 50px;
+         box-shadow:  -24px 24px 50px #a8aead,
+                      24px -24px 50px #e4eceb;
+      }
+      .boxShadows4 {
+         margin: 20px;
+         width: 300px;
+         height: 300px;
+         background: #d1cdcd;
+         border-radius: 50px;
+         box-shadow:  24px -24px 50px #a8aead,
+                      -24px 24px 50px #e4eceb;
+      }
+   </style>
+</head>
+
+<body>
+    <div class="boxShadows1"></div>
+    <div class="boxShadows2"></div>
+    <div class="boxShadows3"></div>
+    <div class="boxShadows4"></div>
+</body>
+</html>

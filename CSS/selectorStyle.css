@@ -1,0 +1,69 @@
+.studentBoy{
+	margin: 30px; 
+	height: 160px; 
+	width: 160px; 
+	text-align:center;
+	font-size: 22px; 
+	color: white; 
+	float: left;
+}
+
+.studentGirl{
+	margin: 30px; 
+	height: 160px; 
+	width: 160px; 
+	text-align:center;
+	font-size: 22px; 
+	color: white; 
+	float: left;
+}
+
+#Mark {
+	background-color: gray;
+}
+
+#sundar {
+	background-color: green;
+}
+
+#Octa {
+	background-color: lightpink;
+}
+
+#malala {
+	background-color: black;
+}
+
+#harnaaz 
+{
+	background: linear-gradient(red, blue);
+}
+
+#Tzuyu {
+	background: linear-gradient(skyblue, darkblue);
+}
+
+#tim {
+	background-color: maroon;
+}
+
+#bill {
+	background-color: olive;
+}
+
+#steave {
+	background: seagreen;
+}
+
+#irene {
+	background: linear-gradient(red,violet);
+}
+
+#liza {
+	background: hotpink;
+}
+
+#krystal
+{
+	background-color: darkcyan;
+}

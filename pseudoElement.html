@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pseudo Element Selector</title>
+	<style type="text/css">
+		a:link {
+			color: darkblue;
+		}
+		a:visited {
+			color: red;
+		}
+		a:hover {
+			color: green;
+		}
+
+		.box {
+			margin: 20px;
+			height: 150px;
+			width: 150px;
+			background: black;
+
+		}
+
+		.box:hover {
+			background: linear-gradient(red, blue);
+			height: 100px;
+			width: 100px;
+		}
+		
+	</style>
+	
+</head>
+<body>
+	<a href="https://www.facebook.com/Octacoder">Facebook Octacoder</a><br><br>
+	<a href="https://www.instagram.com/Octacoder">insta octacoder</a><br><br>
+	<a href="https://www.facebook.com/reel/677548160228304">octacoder page</a>
+	<div class="box"></div>
+
+</body>
+</html>
